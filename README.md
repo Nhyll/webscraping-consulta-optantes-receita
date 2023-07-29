@@ -14,11 +14,12 @@ O projeto é desenvolvido em Python e utiliza as bibliotecas "requests" para faz
 ### Configuração
 
 1. Clone o repositório para o seu computador.
-2. Instale as bibliotecas necessárias executando o seguinte comando:
+2. Crie uma venv.
+3. Com a venv iniciada, instale as bibliotecas necessárias executando o seguinte comando:
 
-`pip install requests beautifulsoup4 twocaptcha`
+`pip install -r requirements.txt`
 
-3. Crie um arquivo chamado `.config` no diretório raiz do projeto com o seguinte formato:
+4. Crie um arquivo chamado `.config` no diretório raiz do projeto com o seguinte formato:
 
 [CAPTCHA]
 API_KEY = sua_chave_api_do_twocaptcha
