@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta Optantes</title>
+
+    
+    
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="sr-only" /><script>!function(a,b,c,d){var e,f=document,g=f.getElementsByTagName("SCRIPT"),h=g[g.length-1].previousElementSibling,i=f.defaultView&&f.defaultView.getComputedStyle?f.defaultView.getComputedStyle(h):h.currentStyle;if(i&&i[a]!==b)for(e=0;e<c.length;e++)f.write('<link href="'+c[e]+'" '+d+"/>")}("position","absolute",["/consultaoptantes/lib/bootstrap/dist/css/bootstrap.min.css"], "rel=\u0022stylesheet\u0022 ");</script>
+        <link rel="stylesheet" href="/consultaoptantes/css/site.css?v=WOrzfHynIX2WTftAMtqR5-y2ZelpALBtVZBEK0BkJVY" />
+    
+    
+</head>
+<body>
+    <div id="conteudoPage" class="container body-content" style='background-color:#FFFFFF'>
+        <div class="row">
+            <h4><span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="font-size:small"></span>Consulta Optantes</h4>
+        </div>
+        
+
+
+<div class="row" style="padding:20px">
+
+<form action="/consultaoptantes" id="consultarForm" method="post">            <div class="alert alert-danger">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <div class="validation-summary-errors"><ul><li>Impedido por prote&#xE7;&#xE3;o Captcha. Comportamento de Rob&#xF4;.</li>
+</ul></div>
+            </div>
+        <div class="form-group">
+            <label class="control-label" for="Cnpj">CNPJ</label>
+            <input class="form-control numeric" maxlength="14" style="width:160px" type="text" data-val="true" data-val-length="CNPJ inv&#xE1;lido." data-val-length-max="14" data-val-length-min="14" data-val-required="CNPJ &#xE9; obrigat&#xF3;rio." id="Cnpj" name="Cnpj" value="13050797000183" />
+            <span class="text-danger field-validation-valid" data-valmsg-for="Cnpj" data-valmsg-replace="true"></span>
+        </div>
+        <button class="btn btn-verde h-captcha" data-sitekey="96a07261-d2ef-4959-a17b-6ae56f256b3f" data-callback="onSubmit">Consultar</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8CBsigV_VhpCrC-Tdv-IjggxnEeKyyK4yANc05DBWUyMyv0wSi-UxoqKQzLm9JGvdpKDgeagVXUId3nf3hAj4lPNQ5tyS0zpLuKazYytCP0dKiYcAL_6l-8EJHVHaL8ANp9nG9xqZQBCwQqxVJaoKP0" /></form></div>
+
+
+
+
+        <hr />
+        <footer></footer>
+    </div>
+
+    
+    
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js" crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+<script>(window.jQuery||document.write("\u003Cscript src=\u0022/consultaoptantes/lib/jquery/dist/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV\u002BrXbYlF2cqB8txI/8aZajjp4Bqd\u002BV6D5IgvKT\u0022\u003E\u003C/script\u003E"));</script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+<script>(window.jQuery && window.jQuery.fn && window.jQuery.fn.modal||document.write("\u003Cscript src=\u0022/consultaoptantes/lib/bootstrap/dist/js/bootstrap.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\u0022\u003E\u003C/script\u003E"));</script>
+
+        <script src="/consultaoptantes/js/site.js?v=N7C2kAdNT2ooQz0x-ynQoym99cSMzjWulmELS6zP57o"></script>
+    
+    
+    <script src="/consultaoptantes/js/html2pdf.bundle.min.js"></script>
+    
+    <script src="https://hcaptcha.com/1/api.js?recaptchacompat=off&hl=pt-BR" async defer></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("consultarForm").submit();
+        }
+    </script>
+
+</body>
+</html>
