@@ -16,7 +16,7 @@ O projeto é desenvolvido em Python e utiliza as bibliotecas "requests" para faz
 1. Clone o repositório para o seu computador.
 2. Instale as bibliotecas necessárias executando o seguinte comando:
 
-pip install requests beautifulsoup4 twocaptcha
+`pip install requests beautifulsoup4 twocaptcha`
 
 3. Crie um arquivo chamado `.config` no diretório raiz do projeto com o seguinte formato:
 
