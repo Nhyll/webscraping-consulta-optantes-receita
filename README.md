@@ -1,8 +1,8 @@
-# Webscraping para Consulta de Enquadramento Fiscal no site "Consulta Optantes Receita Federal"
+## Webscraping para Consulta de Enquadramento Fiscal no site "Consulta Optantes Receita Federal"
 
 Este projeto tem como objetivo realizar webscraping no site "Consulta Optantes Receita Federal" para consultar o enquadramento fiscal de um CNPJ fornecido pelo usuário. O site da Receita Federal possui um captcha que precisa ser resolvido para que a consulta seja realizada com sucesso. Para contornar isso, utilizamos a API do serviço "TwoCaptcha" para quebrar o captcha e obter a página de consulta com o resultado.
 
-## Como funciona
+### Como funciona
 
 O projeto é desenvolvido em Python e utiliza as bibliotecas "requests" para fazer requisições HTTP, "BeautifulSoup" para analisar o HTML da página e extrair informações, e "twocaptcha" para resolver o captcha.
 
@@ -32,9 +32,7 @@ Substitua `sua_chave_api_do_twocaptcha` pela sua chave da API do TwoCaptcha e `c
 
 Para executar o webscraping e obter a página de consulta com o resultado, basta rodar o arquivo `main.py`
 
-## Aviso Importante
-
-Este projeto tem como objetivo realizar webscraping no site "Consulta Optantes Receita Federal" para consultar o enquadramento fiscal de um CNPJ fornecido pelo usuário. O site da Receita Federal possui um captcha que precisa ser resolvido para que a consulta seja realizada com sucesso. Para contornar isso, utilizamos a API do serviço "TwoCaptcha" para quebrar o captcha e obter a página de consulta com o resultado.
+### Aviso Importante
 
 Este projeto foi criado apenas para fins recreativos e educacionais. Ele não tem qualquer finalidade maliciosa ou de violação de privacidade. O uso deste código em qualquer atividade ilegal ou não ética é estritamente proibido.
 
